@@ -1,0 +1,6 @@
+vscode:
+  extensions:
+    - astro-build.astro-vscode
+tasks:
+  - init: npm install
+  - command: npm run dev

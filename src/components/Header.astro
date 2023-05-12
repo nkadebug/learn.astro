@@ -1,0 +1,16 @@
+---
+//components import
+import User from "./User.svelte";
+
+---
+
+<header class="border-b">
+    <nav class="flex">
+      <a href="/" rel="prefetch" class="p-2">Learn Astro</a>
+      <span class="flex-1"></span>
+      <ul class="flex place-items-center">
+        <li><a href="/about" rel="prefetch" class="p-2">About</a></li>
+        <li><User client:idle /></li>
+      </ul>
+    </nav>
+  </header>
