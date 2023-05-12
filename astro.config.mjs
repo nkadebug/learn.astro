@@ -6,7 +6,6 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://nkadebug.github.io',
-  base: 'learn.astro',
+  site: 'https://nkadebug-learn-astro.pages.dev/',
   integrations: [tailwind(), sitemap(), svelte()]
 });
